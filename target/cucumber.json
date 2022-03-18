@@ -1,0 +1,114 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 6,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 39000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I am at school Home Page",
+            "match": {
+              "location": "stepDef.GNB_steps.homePage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-03-18T12:11:58.307Z",
+        "before": [
+          {
+            "result": {
+              "duration": 11995000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.openBrowser()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify username \u0026 password",
+        "description": "",
+        "id": "login-to-school.test;verify-username-\u0026-password",
+        "after": [
+          {
+            "result": {
+              "duration": 1263000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDef.Hook.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13540000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "submit login button",
+            "match": {
+              "location": "stepDef.Library_steps.logintest()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19569000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I will click library ,categories \u0026 input categories",
+            "match": {
+              "location": "stepDef.Library_steps.addcategoriestest()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 26533000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I will click subjects \u0026 input subjects",
+            "match": {
+              "location": "stepDef.Library_steps.addsubjectstest()"
+            },
+            "keyword": "When "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@login"
+          },
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@regression"
+          }
+        ]
+      }
+    ],
+    "name": "Login to school.test",
+    "description": "  As a tester\n  I want to ensure Signup feature working as expected\n  So that our end user can Signup into school.test without any issues",
+    "id": "login-to-school.test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/library/library.feature",
+    "tags": []
+  }
+]
